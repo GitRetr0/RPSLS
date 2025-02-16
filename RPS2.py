@@ -25,8 +25,9 @@ def play_rock_paper_scissors(user_choice):
     messagebox.showinfo(computer_choice, result)
         
 def create_interface():
+    game_name = "Rock, Paper. Scissors, Lizard. Spock"
     root = tk.Tk()
-    root.title("Rock-Paper-Scissors-Lizard-Spock")
+    root.title(game_name)
     tk.Label(root, text="Choose your move: ", font=("Arial", 14)).pack(pady=10)
     for choice in ["rock", "paper", "scissors", "lizard", "spock"]:
         tk.Button(root, text=choice.capitalize(), font=("Arial", 12), command=lambda c=choice: play_rock_paper_scissors(c)).pack(pady=5)
