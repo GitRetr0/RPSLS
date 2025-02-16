@@ -8,11 +8,6 @@ A simple graphical implementation of the extended Rock-Paper-Scissors game using
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [How to Play](#how-to-play)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
