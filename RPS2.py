@@ -18,9 +18,9 @@ def play_rock_paper_scissors(user_choice):
             "spock": ["scissors", "rock"]
         }
     if computer_choice in winning_moves[user_choice]:
-        result += f"Computer chose {computer_choice}. {user_choice} beats {computer_choice}. You win!"
+        result += f"{user_choice} beats {computer_choice}. You win!"
     else:
-        result += f"Computer chose {computer_choice}. {computer_choice} beats {user_choice} You lose!"
+        result += f"{computer_choice} beats {user_choice} You lose!"
     
     messagebox.showinfo(computer_choice, result)
         
